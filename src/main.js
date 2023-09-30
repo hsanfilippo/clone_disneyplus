@@ -1,6 +1,5 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() { //executa funções quando acabar de carregar o DOM
     const buttons = document.querySelectorAll('[data-tab-button]');
-;
     
     for (let i=0; i < buttons.length; i++) {
         buttons[i].addEventListener('click', function(botao) {

@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() { //executa funções quando acabar de carregar o DOM
+document.addEventListener('DOMContentLoaded', function() {
     const buttons = document.querySelectorAll('[data-tab-button]');
     
     for (let i=0; i < buttons.length; i++) {
